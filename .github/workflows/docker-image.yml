@@ -1,4 +1,4 @@
-name: FIna Docker
+name: Final Docker
 
 on:
   workflow_dispatch:  
