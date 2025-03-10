@@ -19,7 +19,7 @@
                 id: meta
                 uses: docker/metadata-action@v4
                 with:
-                images: ${{ secrets.DOCKER_HUB_USERNAME }}/my_dh_image
+                images: ${{ secrets.DOCKER_HUB_USERNAME }}/my_temp_image
                 tags: |
                     type=raw,value=latest
                     type=sha
